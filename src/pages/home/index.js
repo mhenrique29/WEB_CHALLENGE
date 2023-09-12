@@ -126,7 +126,7 @@ export default function Index(){
 
 				<div className="texto-infos">
 					<span className="nome">Marcos Henrique</span>
-					<span className="RM">98348</span>
+					<span className="RM"></span>
 				</div>
 			</div>
 
@@ -148,7 +148,7 @@ export default function Index(){
 
 				<div className="texto-infos">
 					<span className="nome">Nathalia Braga</span>
-					<span className="RM">552221</span>
+					<span className="RM"></span>
 				</div>
 			</div>
 
