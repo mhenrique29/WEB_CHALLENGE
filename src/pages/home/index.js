@@ -83,7 +83,7 @@ export default function Index(){
             </form>
 		</div>
 		<div>
-			<p>Está página tem o objetivo de simular um caso de perguntas e respostas sobre o problema que o usuário teve com o seu veículo, através de um formulário web</p>
+			<p>Está página tem o objetivo de simular um caso de perguntas e respostas sobre o problema que o usuário teve com o seu veículo pesado, através de um formulário web</p>
 		</div>
 	</section>
 	<section className="sec-tit-projeto">
@@ -126,7 +126,7 @@ export default function Index(){
 
 				<div className="texto-infos">
 					<span className="nome">Marcos Henrique</span>
-					<span className="RM"></span>
+					<span className="RM">98348</span>
 				</div>
 			</div>
 
@@ -148,7 +148,7 @@ export default function Index(){
 
 				<div className="texto-infos">
 					<span className="nome">Nathalia Braga</span>
-					<span className="RM"></span>
+					<span className="RM">552221</span>
 				</div>
 			</div>
 
