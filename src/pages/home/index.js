@@ -153,6 +153,8 @@ export default function Index(){
 			</div>
 
 		</div>
+
+		<h4><a href="https://github.com/mhenrique29/WEB_CHALLENGE" target='blank'>Repositório GitHub</a></h4>
 	</section>
     <FooterComponent />
         </body>

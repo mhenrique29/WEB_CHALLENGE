@@ -8,6 +8,7 @@ export default function Index(){
 
 			<div className="titulo-footer">
 				<h3> <a href="#"> TECH SPLINTER </a> </h3>
+				
 			</div>
 	
 	</footer>
