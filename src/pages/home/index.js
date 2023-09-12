@@ -154,7 +154,8 @@ export default function Index(){
 
 		</div>
 
-		<h4><a href="https://github.com/mhenrique29/WEB_CHALLENGE" target='blank'>Repositório GitHub</a></h4>
+		<h4 className='repositorio'><a href="https://github.com/mhenrique29/WEB_CHALLENGE" target='blank'>Repositório GitHub</a></h4>
+
 	</section>
     <FooterComponent />
         </body>
