@@ -1,0 +1,40 @@
+.footer {
+    background-color: #0075b7;
+    
+    .divFooter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        div {
+            width: calc(100% / 3);
+        }
+
+        .menuFooter ul {
+            list-style: none;
+        }
+
+        .menuFooter a {
+            color: #cecece;
+            font-size: 14px;
+            transition: 0.5s;
+
+            &:hover {
+                color: #ffffff;
+                padding-left: 5px;
+                transition: 0.5s;
+            }
+        }
+
+        .tituloFooter {
+            display: flex;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 20px;
+
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}

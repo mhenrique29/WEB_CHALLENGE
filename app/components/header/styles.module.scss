@@ -1,0 +1,31 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    nav {
+        background-color: #00A1FC;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        ul {
+            width: 90%;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 5%;
+
+            li {
+                a {
+                    color: #ffffff;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
