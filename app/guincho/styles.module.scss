@@ -1,70 +1,221 @@
-.guinchoPage {
-    .secForm {
+.container {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    background-color:#09f;
+    background: linear-gradient(180deg, rgba(0, 161, 252, 1) 0%, rgba(95, 192, 246, 1) 50%, rgba(158, 216, 247, 1) 100%);;
+    height: 100vh;
+
+    .box {
+        background-color: white;
+        width: 45%;
+        height: 65vh;
         display: flex;
         flex-direction: column;
+        border-radius: 5px;
+        padding: 0;
+        margin: 0;
         align-items: center;
-        background: rgb(78 153 195);;
-        background: linear-gradient(180deg,  rgba(0, 161, 252, 1) 0%, rgba(95, 192, 246, 1) 50%, rgba(158, 216, 247, 1) 100%);
-        padding-bottom: 5%;
-
-        .divForm {
-            width: 25%;
-            height: 80vh;
-            padding: 1%;
-            border: 1px solid #c7c4c4;
-            border-radius: 20px;
-            box-shadow: -2px 4px 8px #4e4e4e;
-            background-color: #fdfdfd;
-    
-            form {
-                width: 100%;
-
-                .elementosForm {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 15px;
-                }
-
-                .inptAlteracoes {
-                    width: 70%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    font-size: 12px;
-                }
-
-                input {
-                    width: 70%;
-                    padding: 2px;
-                    margin: 2%;
-                    border: 0;
-                    border-bottom: 1px solid #c7c4c4;
-                }
-
-                input[type="radio"] {
-                    width: auto;	
-                }
-
-                input[type="submit"] {
-                    cursor: pointer;
-                }
-
-                textarea {
-                    width: 70%;
-                    height: 50px;
-                    resize: vertical;
-                }
-
-                .btnEnviar {
-                    width: 40%;
-                    height: 30px;
-                    background-color: #000000;
-                    color: #ffffff;
-                    border-radius: 7px;
-                }
-            }
-        }
     }
+
+    h1 {
+        margin-bottom: 5%;
+        color: #166397;
+    }
+
+    .dadosVeiculo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 14px;
+    }
+
+    .dadosVeiculo h4 {
+        margin: 0;
+    }
+
+    .dadosVeiculo p {
+        margin: 0;
+        padding: 0;
+        margin-left: 10px
+    }
+
+    .dadosVeiculo span {
+        margin: 0 5px;
+        font-weight: bold;
+    }
+
+    form {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .campos {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 50px;
+        margin: 5px 0;
+    }
+
+    .invisivel {
+        display: none;
+    }
+
+    label {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: math;
+    }
+
+    input {
+        width: 150px;
+        height: 25px;
+        border: 1px solid lightgrey;
+        background: #f9f9f9;
+        font-size: 16px;
+    }
+
+    select {
+        width: 155px;
+        padding: 5px;
+        border: 1px solid black;
+        background: #f9f9f9;
+    }
+
+    .btn {
+        justify-content: center;
+        padding-right: inherit;
+    }
+
+    .btnEnviar {
+        background-color: #166397;
+        border: 1px solid #0b6895;
+        border-radius: 6px;
+        width: 140px;
+        height: 35px;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    #resultado {
+        background-color: white;
+        width: 15%;
+        border-radius: 8px;
+        text-align: center;
+        margin-top: 3%;
+        transition: 2s;
+    }
+
+
+    #resultado p {
+        margin: 1% 0;
+        font-size: 14px;
+    }
+
+    #resultado h2 {
+        margin: 1% 0;
+        font-size: 20px;
+    }
+
+    #resultado a {
+        color: #09f;
+        text-decoration: underline #5fb3eb;
+        font-size: 14px;
+        background-color: #e1e1e1;
+        padding: 2px;
+    }
+
+    .divGerar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gerarPlaca {
+        border: 1px solid #58bdf7;
+        background-color: transparent;
+        border-radius: 6px;
+        font-size: 12px;
+        font-family: 'Poppins';
+        text-decoration: underline 1px rgb(4, 42, 126);
+        width: 25%;
+        text-align: center;
+        cursor: pointer;
+    }
+
 }
+
+// @media screen and (max-width: 767px) {
+
+//     #wave {
+//         width: 350%;
+//         position: absolute;
+//         top: 4%;
+//         right: 8%;
+//         rotate: 352deg;
+//     }
+
+//     #logo {
+//         width: 80px;
+//         top: 0%;
+//         z-index: 10;
+//     }
+
+//     .box {
+//         width: 90%;
+//         height: 100%;
+//     }
+
+//     .dadosVeiculo {
+//         flex-direction: column;
+//     }
+
+//     form {
+//         width: 90%;
+//     }
+
+//     .campos {
+//         gap: 30px;
+//     }
+
+//     label {
+//         font-size: 13px;
+//     }
+
+//     input {
+//         width: 150px;
+//         height: 25px;
+//         border: 1px solid lightgrey;
+//         background: #f9f9f9;
+//         font-size: 16px;
+//     }
+    
+//     select {
+//         width: 155px;
+//         padding: 5px;
+//         border: 1px solid black;
+//         background: #f9f9f9;
+//     }
+
+//     .btn {
+//         margin-bottom: 5%;
+//     }
+
+//     #resultado {
+//         width: 70%;
+//         margin-top: 5%;
+//     }
+
+//     .gerarPlaca {
+//         width: 55%;
+//     }
+// }
